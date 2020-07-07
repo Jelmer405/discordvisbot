@@ -22,7 +22,7 @@ client.on('message', message => {
  else if (message.content.startsWith('!gainz')) {
         let args = message.content.split(' ')
         if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!gainz gebruiker`')
-        message.reply(`https://www.runeclan.com/user/${args[1]}/`);
+        message.reply(`https://www.runeclan.com/user/${args[1]}`);
   
  }
  
