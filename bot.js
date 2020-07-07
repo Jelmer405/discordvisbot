@@ -22,6 +22,7 @@ client.on('message', message => {
     else if (message.content === '!gainz') {
 
        message.reply('Dit vind ik te moeilijk, maar je kunt het hier opzoeken: https://www.runeclan.com/');
+    }
 
 });
 
