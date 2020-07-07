@@ -284,7 +284,7 @@ xaxis: {
 }
 }
 
-		if(command === 'stats') { //Attempt to display stats of player(s)
+		if (message.content === '!stats') { //Attempt to display stats of player(s)
       skillname = args[0];
       playername=args[1];
       playername2=args[2];
