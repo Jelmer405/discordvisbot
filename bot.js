@@ -19,8 +19,10 @@ client.on('message', message => {
        message.reply('Vis Wax combinatie: https://secure.runescape.com/m=forum/sl=0/forums?75,76,331,66006366');
 
        }
- else if (message.content === '!gainz') {
-      message.reply('Zoek het lekker zelf op: https://www.runeclan.com');
+ else if (message.content.startsWith('!gainz')) {
+        let args = message.content.split(' ')
+        if (!args[1]) return message.reply('pls write a user! Like `!gainz user`')
+        message.reply(`https://www.runeclan.com/${args[1]}/`);
   
  }
  
