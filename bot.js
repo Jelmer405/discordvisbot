@@ -34,11 +34,7 @@ client.on('message', message => {
    else if (message.content === '!alog') {
        message.reply('Ook de alog mag je nog zelf opzoeken: https://apps.runescape.com/runemetrics/app/welcome');
     }
- 
-
-  if (fromID === me && text.includes("!say") ) {
-    bot.sendMessage({ to: channel, message:'https://www.runeclan.com/user/+txt.replace('!say ','') });
-}      
+    
 });
 
 // THIS  MUST  BE  THIS  WAY
