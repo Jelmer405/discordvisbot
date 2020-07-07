@@ -29,6 +29,9 @@ client.on('message', message => {
        message.reply('Zoek het lekker zelf op: https://www.runeclan.com');
 
        }
+    else if (message.content === '!tms') {
+       message.reply('De merchant heeft vandaag: https://runescape.wiki/w/Travelling_Merchant%27s_Shop');
+    }
 });
  
 
