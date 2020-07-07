@@ -36,6 +36,14 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+          
+      case "stats":
+message.delete()
+if (message.content.startsWith("!stats")) {
+message.channel.sendMessage("https://www.runeclan.com/user/"+(message.content.replace('!stats ','')));
+};
+break;
 
 // THIS  MUST  BE  THIS  WAY
 
