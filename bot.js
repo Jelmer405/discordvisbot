@@ -19,13 +19,17 @@ client.on('message', message => {
        message.reply('Vis Wax combinatie: https://secure.runescape.com/m=forum/sl=0/forums?75,76,331,66006366');
 
        }
-    else if (message.content === '!gainz') {
-
-       message.reply('Dit vind ik te moeilijk, maar je kunt het hier opzoeken: https://www.runeclan.com/');
-    }
-
 });
 
+
+client.on('message', message => {
+
+    if (message.content === '!gainz') {
+
+       message.reply('Zoek het lekker zelf op: https://www.runeclan.com');
+
+       }
+});
  
 
 // THIS  MUST  BE  THIS  WAY
