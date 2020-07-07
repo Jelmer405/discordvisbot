@@ -25,7 +25,7 @@ client.on('message', message => {
 
     if (message.content === '!gainz') {
 
-       message.reply('Zoek het lekker zelf op: https://www.runeclan.com'+'/user/'+${message.author.slice(-7, 0)});
+       message.reply('Zoek het lekker zelf op: https://www.runeclan.com'+'/user/'+(${message.author}));
 
        }
     else if (message.content === '!merchant') {
