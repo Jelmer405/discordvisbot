@@ -36,7 +36,9 @@ client.on('message', message => {
  else if (message.content === '!merchant') { 
   message.reply('De merchant heeft vandaag: https://runescape.wiki/w/Travelling_Merchant%27s_Shop'); 
  } 
-
+ else if (message.content === '!help') { 
+  message.reply('Je kunt de volgende commands gebruiken: `!vis` `!merchant` `!gainz gebruiker` `!alog gebruiker`. Let op dat je bij !gainz het volgende plaatst in plaats van een spatie in de gebruikersnaam: `+` en bij !alog in plaats van een spatie: `%20`'); 
+ } 
 });
 
  
