@@ -27,7 +27,7 @@ client.on('message', message => {
          }
  else if (message.content.startsWith('!alog')) {
         let args = message.content.split(' ')
-        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!gainz gebruiker`')
+        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!alog gebruiker`')
         message.reply(`https://apps.runescape.com/runemetrics/app/overview/player/${args[1]}`);
 
 
