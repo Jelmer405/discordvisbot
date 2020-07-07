@@ -35,7 +35,7 @@ client.on('message', message => {
        message.reply('Ook de alog mag je nog zelf opzoeken: https://apps.runescape.com/runemetrics/app/welcome');
     }
    else if (message.content.startsWith === '!stats') {
-     message.reply('https://www.runeclan.com/user/'+(message.content.replace('!stats ','')));
+     message.reply('https://www.runeclan.com/user/');
 }
  
 });
