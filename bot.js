@@ -34,16 +34,12 @@ client.on('message', message => {
    else if (message.content === '!alog') {
        message.reply('Ook de alog mag je nog zelf opzoeken: https://apps.runescape.com/runemetrics/app/welcome');
     }
+   else if (message.content.startsWith === '!stats') {
+     message.reply('https://www.runeclan.com/user/'+(message.content.replace('!stats ','')));
+}
+ 
 });
-
-client.on('message', message => {
-          
-      case "stats":
-message.delete()
-if (message.content.startsWith("!stats")) {
-message.channel.sendMessage("https://www.runeclan.com/user/"+(message.content.replace('!stats ','')));
-};
-break;
+        
 
 // THIS  MUST  BE  THIS  WAY
 
