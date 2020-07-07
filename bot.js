@@ -29,7 +29,7 @@ client.on('message', message => {
        message.reply('Zoek het lekker zelf op: https://www.runeclan.com');
 
        }
-    else if (message.content === '!tms') {
+    else if (message.content === '!merchant') {
        message.reply('De merchant heeft vandaag: https://runescape.wiki/w/Travelling_Merchant%27s_Shop');
     }
 });
