@@ -31,6 +31,9 @@ client.on('message', message => {
     else if (message.content === '!merchant') {
        message.reply('De merchant heeft vandaag: https://runescape.wiki/w/Travelling_Merchant%27s_Shop');
     }
+   else if (message.content === '!alog') {
+       message.reply('Ook de alog mag je nog zelf opzoeken: https://apps.runescape.com/runemetrics/app/welcome');
+    }
 });
 
 
