@@ -38,7 +38,7 @@ client.on('message', message => {
  } 
  
  else if (message.content === 'Is BeatTheBest dom?') { 
-  message.send('Ja.'); 
+  message.reply('Ja.'); 
  }
 });
 
