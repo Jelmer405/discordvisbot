@@ -21,13 +21,13 @@ client.on('message', message => {
        }
  else if (message.content.startsWith('!gainz')) {
         let args = message.content.split(' ')
-        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!gainz gebruiker`')
+        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!gainz gebruiker` Let op: spaties als volgt: +')
         message.reply(`https://www.runeclan.com/user/${args[1]}`);
   
          }
  else if (message.content.startsWith('!alog')) {
         let args = message.content.split(' ')
-        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!alog gebruiker`')
+        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!alog gebruiker` Let op: spaties als volgt: %20')
         message.reply(`https://apps.runescape.com/runemetrics/app/overview/player/${args[1]}`);
 
 
