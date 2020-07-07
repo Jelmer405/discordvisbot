@@ -36,10 +36,7 @@ client.on('message', message => {
  else if (message.content === '!merchant') { 
   message.reply('De merchant heeft vandaag: https://runescape.wiki/w/Travelling_Merchant%27s_Shop'); 
  } 
- 
- else if (message.content.contains('dom?') { 
-  message.reply('Ja.'); 
- }
+
 });
 
  
