@@ -37,6 +37,46 @@ client.on('message', message => {
     
 });
 
+client.on('message', message => {
+	if (!message.content.startsWith(config.prefix)) return;
+
+	const withoutPrefix = message.content.slice(config.prefix.length);
+	const split = withoutPrefix.split(/ +/);
+	const command = split[0];
+	const args = split.slice(1);
+ 
+ if (command === 'stats') {
+	const user = message.author;
+
+	return message.channel.send(`https://www.runeclan.com/user/${user.username}`);
+}
+ function getUserFromMention(mention) {
+	if (!mention) return;
+
+	if (mention.startsWith('< ') && mention.endsWith('>')) {
+		mention = mention.slice(2, -1);
+
+		if (mention.startsWith('!')) {
+			mention = mention.slice(1);
+		}
+
+		return client.users.cache.get(mention);
+	}
+}
+ if (command === 'stats') {
+	if (args[0]) {
+		const user = getUserFromMention(args[0]);
+		if (!user) {
+			return message.reply('We kunnen hiervan helaas geen gainz vinden.');
+		}
+
+		return message.channel.send(`https://www.runeclan.com/user/${user.username}`);
+	}
+
+	return message.channel.send(`${message.author.username}, https://www.runeclan.com/user/${user.username}`);
+}
+});
+
 // THIS  MUST  BE  THIS  WAY
 
 
