@@ -24,10 +24,12 @@ client.on('message', message => {
         if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!gainz gebruiker`')
         message.reply(`https://www.runeclan.com/user/${args[1]}`);
   
- }
- 
- else if (message.content === '!alog') {
-     message.reply('Ook de alog mag je nog zelf opzoeken: https://apps.runescape.com/runemetrics/app/welcome');
+         }
+ else if (message.content.startsWith('!alog')) {
+        let args = message.content.split(' ')
+        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!gainz gebruiker`')
+        message.reply(`https://apps.runescape.com/runemetrics/app/overview/player/${args[1]}`);
+
 
  } 
  
