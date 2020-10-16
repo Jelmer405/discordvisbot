@@ -21,13 +21,13 @@ client.on('message', message => {
        }
  else if (message.content.startsWith('$gainz')) {
         let args = message.content.split(' ')
-        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!gainz gebruiker` Let op: spaties als volgt: +')
+        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `$gainz gebruiker` Let op: spaties als volgt: +')
         message.reply(`https://www.runeclan.com/user/${args[1]}`);
   
          }
  else if (message.content.startsWith('$alog')) {
         let args = message.content.split(' ')
-        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `!alog gebruiker` Let op: spaties als volgt: %20')
+        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `$alog gebruiker` Let op: spaties als volgt: %20')
         message.reply(`https://apps.runescape.com/runemetrics/app/overview/player/${args[1]}`);
 
 
@@ -37,7 +37,7 @@ client.on('message', message => {
   message.reply('De merchant heeft vandaag: https://runescape.wiki/w/Travelling_Merchant%27s_Shop'); 
  } 
  else if (message.content === '$help') { 
-  message.reply('Je kunt de volgende commands gebruiken: `!vis` `!merchant` `!gainz gebruiker` `!alog gebruiker`. Let op dat je bij !gainz het volgende plaatst in plaats van een spatie in de gebruikersnaam: `+` en bij !alog in plaats van een spatie: `%20`'); 
+  message.reply('Je kunt de volgende commands gebruiken: `$vis` `$merchant` `$gainz gebruiker` `$alog gebruiker`. Let op dat je bij !gainz het volgende plaatst in plaats van een spatie in de gebruikersnaam: `+` en bij !alog in plaats van een spatie: `%20`'); 
  } 
 });
 
