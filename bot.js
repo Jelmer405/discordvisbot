@@ -26,7 +26,7 @@ client.on('message', message => {
 
        }
   
-    if (message.content === '%vis') {
+    if (message.content === '%viasddsas') {
 
        message.reply('Vis Wax combinatie: https://tinyurl.com/viswaxcombi');
 
