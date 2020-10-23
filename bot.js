@@ -22,13 +22,13 @@ client.on('message', message => {
  
     if (message.content === '!vis') {
 
-       message.reply('Vis Wax combinatie: https://tinyurl.com/viswaxcombi');
+       message.reply('Vis Wax combinatie: https://secure.runescape.com/m=forum/sl=0/forums?75,76,331,66006366');
 
        }
   
     if (message.content === '%viasddsas') {
 
-       message.reply('Vis Wax combinatie: < https://tinyurl.com/viswaxcombi >');
+       message.reply('Vis Wax combinatie: https://imgur.com/a/KKeLSqR');
 
        }
  else if (message.content.startsWith('$gainz')) {
