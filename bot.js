@@ -28,7 +28,7 @@ client.on('message', message => {
   
     if (message.content === '%viasddsas') {
 
-       message.reply('Vis Wax combinatie: tinyurl.com/viswaxcombi');
+       message.reply('Vis Wax combinatie: < https://tinyurl.com/viswaxcombi >');
 
        }
  else if (message.content.startsWith('$gainz')) {
