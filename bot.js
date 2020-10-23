@@ -40,7 +40,7 @@ client.on('message', message => {
   message.reply('Je kunt de volgende commands gebruiken: `$vis` `$merchant` `$gainz gebruiker` `$alog gebruiker`. Let op dat je bij !gainz het volgende plaatst in plaats van een spatie in de gebruikersnaam: `+` en bij !alog in plaats van een spatie: `%20`'); 
  } 
   else if (message.content === 'Wie is een droplul?') { 
-  message.reply('Iedereen ofc.`'); 
+  message.reply('Iedereen natuurlijk :SquidDab:'); 
  } 
 });
 
