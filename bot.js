@@ -26,9 +26,9 @@ client.on('message', message => {
 
        }
   
-    if (message.content === '%viasddsas') {
+    if (message.content === '%vis') {
 
-       message.reply('Vis Wax combinatie: https://imgur.com/a/KKeLSqR');
+       message.reply('Vis Wax combinatie: https://www.sanfransentinel.com/viswaxcombinatie1.html');
 
        }
  else if (message.content.startsWith('$gainz')) {
