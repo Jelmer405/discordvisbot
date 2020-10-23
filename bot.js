@@ -19,6 +19,12 @@ client.on('message', message => {
        message.reply('Vis Wax combinatie: https://secure.runescape.com/m=forum/sl=0/forums?75,76,331,66006366');
 
        }
+ 
+    if (message.content === '!vis') {
+
+       message.reply('Vis Wax combinatie: https://tinyurl.com/viswaxcombi');
+
+       }
  else if (message.content.startsWith('$gainz')) {
         let args = message.content.split(' ')
         if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `$gainz gebruiker` Let op: spaties als volgt: +')
