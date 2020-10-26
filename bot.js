@@ -20,13 +20,13 @@ client.on('message', message => {
 
        }
  
- /   if (message.content === '!vis') {
+    if (message.content === '!visdffdsdfsdfsds') {
 
        message.reply('Vis Wax combinatie: https://secure.runescape.com/m=forum/sl=0/forums?75,76,331,66006366');
 
        }
   
-/  if (message.content === '%vis') {
+    if (message.content === '%vifdfsfdsdffdsfdss') {
 
        message.reply('Vis Wax combinatie: https://tinyurl.com/viswaxcombination');
 
