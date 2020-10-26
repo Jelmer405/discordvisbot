@@ -33,7 +33,7 @@ client.on('message', message => {
        }
  else if (message.content.startsWith('$gainz')) {
         let args = message.content.split(' ')
-        if (!args[1]) return message.reply('Geef wel even een gebruikersnaam op, domlul. Op deze manier: `$gainz gebruiker` Let op: spaties als volgt: +')
+        if (!args[1]) return message.reply('Je mag zelf gaan zoeken op https://www.runeclan.com/user/. Wil je dat ik het zoekwerk voor je doe? Zet dan even je naam erbij! Op deze manier: `$gainz gebruiker` Let op: spaties als volgt: +')
         message.reply(`https://www.runeclan.com/user/${args[1]}`);
   
          }
