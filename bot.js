@@ -54,6 +54,12 @@ client.on('message', message => {
   else if (message.content === 'Wie is een droplul?') { 
   message.reply('iedereen natuurlijk!'); 
  } 
+   else if (message.content === 'Jeroen ook?') { 
+  message.reply('hij natuurlijk helemaal!'); 
+ } 
+   else if (message.content === 'Zwaffie dan?') { 
+  message.reply('Zwaffie valt nog mee.'); 
+ } 
 });
 
  
