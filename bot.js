@@ -60,7 +60,7 @@ client.on('message', message => {
    else if (message.content === 'Zwaffie dan?') { 
   message.reply('Zwaffie valt nog mee.'); 
  } 
-   else if (message.content === 'ook?') { 
+   else if (message.content.includes === 'ook?') { 
   message.reply('jazeker!'); 
  } 
 });
